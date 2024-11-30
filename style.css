@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(back.jpg) no-repeat fixed center;
+    background: url(download.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
@@ -20,13 +20,13 @@ body {
     width: 400px;
     padding: 30px;
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid #e6b7ec;
+    border: 2px solid #0f0211;
     border-radius: 10px;
     backdrop-filter: blur(15px);
 }
 
 h1 {
-    color: #eee;
+    color: #0b0a0a;
     text-align: center;
     margin-bottom: 36px;
 }
@@ -42,21 +42,21 @@ h1 {
     outline: none;
     padding: 10px 20px;
     background-color: transparent;
-    border: 2px solid #e6b7ec;
+    border: 2px solid #1e0421;
     border-radius: 30px;
-    color: #eee;
+    color: #3d3a3a;
     font-size: 16px;
     margin-right: 10px;
 }
 
 .todo-input::placeholder {
-    color: #bfbfbf;
+    color: #171515;
 }
 
 .add-button {
     border: none;
     outline: none;
-    background: #e6b7ec;
+    background: #e6833d;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
@@ -78,22 +78,22 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #463c7b;
+    background-color: #e6c54b;
     border-radius: 5px;
     margin: 10px 0;
     padding: 10px 12px;
-    border: 2px solid #463c7b;
+    border: 2px solid #151515;
 }
 
 .todo:hover {
-    background-color: #e6b7ec;
+    background-color: #e6833d ;
 }
 
 .todo label {
     cursor: pointer;
     display: flex;
     align-items: center;
-    color: #eee;
+    color: #1a1515;
 }
 
 .todo span {
@@ -108,7 +108,7 @@ input[type='checkbox'] {
 
 input:checked + span {
     text-decoration: line-through;
-    color: #a5a5a5;
+    color: #0b0b0b;
 }
 
 .todo .delete-btn {
@@ -131,17 +131,17 @@ input:checked + span {
 }
 
 .filter {
-    color: #463c7b;
+    color: #a68b6d;
     padding: 5px 15px;
     border-radius: 100px;
-    border: 2px solid #e6b7ec;
+    border: 2px solid #240628;
     cursor: pointer;
 }
 
 .filter.active,
 .filter:hover {
-    background-color: #e6b7ec;
-    color: #fff;
+    background-color: #cbabcb;
+    color: #0e0d0d;
 }
 
 .delete-all {
@@ -149,6 +149,6 @@ input:checked + span {
     padding: 7px 15px;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #e6b7ec;
+    background-color: #e6833d;
     text-align: center;
 }
